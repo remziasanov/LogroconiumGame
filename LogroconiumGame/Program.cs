@@ -1,7 +1,4 @@
 ﻿using LogroconiumGame.Models;
-using System.Reflection.Metadata;
-using System.Security.Cryptography;
-using System.Threading.Channels;
 
 namespace LogroconiumGame
 {
@@ -9,7 +6,6 @@ namespace LogroconiumGame
     {
         static void Main(string[] args)
         {
-
             Console.WriteLine("Добро пожаловать в игру Logroconium!");
 			Console.WriteLine("Вы ведущий или игрок? Выберите Ведущий - Игрок");
             var choose = Console.ReadLine();
