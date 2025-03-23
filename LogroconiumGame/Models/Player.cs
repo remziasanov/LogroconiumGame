@@ -1,19 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LogroconiumGame.Models
+﻿namespace LogroconiumGame.Models
 {
 	/// <summary>
-	/// Игрок команды
+	/// Игрок команды или Ведущий
 	/// </summary>
 	public class Player
 	{
 		/// <summary>
 		/// Идентификатор для LiteDb
 		/// </summary>
+		[LiteDB.BsonId]
 		public int Id { get; set; }
 
 		/// <summary>
@@ -25,5 +20,10 @@ namespace LogroconiumGame.Models
 		/// Идентификатор игрока  телеграм 
 		/// </summary>
 		public int TelegramId { get; set; }
+
+		/// <summary>
+		/// Признак ведущий 
+		/// </summary>
+		public bool IsLeading { get; set; }
 	}
 }

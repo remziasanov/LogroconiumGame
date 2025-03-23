@@ -14,6 +14,7 @@ namespace LogroconiumGame.Models
 		/// <summary>
 		/// Идентификатор для LiteDb
 		/// </summary>
+		[LiteDB.BsonId]
 		public int Id { get; set; }
 
 		/// <summary>
