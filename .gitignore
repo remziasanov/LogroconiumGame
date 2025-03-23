@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/LogroconiumGame/obj
+/.vs
+/LogroconiumGame/.vs/LogroconiumGame/v17
+/LogroconiumGame/.vs/LogroconiumGame/FileContentIndex
